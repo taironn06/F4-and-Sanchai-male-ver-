@@ -1,91 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Welcome to My Page!</title>
-
-     <body style="background-color:rgb(219, 236, 248);"></body>
-
+<title>Kyelle's Website</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-div {
-    margin: 200px;
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
+ 
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  margin-right: 500px;
+  margin-left: 500px;
+  background-image: url(https://i.ibb.co/nNrSS3T5/3360x1890.png);
+  background-size: cover;
+}
+ 
+/* Style the content */
+.content {
+  background-color: #E6A8BD;
+  padding: 10px;
+  height: 1500px;
+  text-align: center;
+  border-radius: 25px;
+  opacity: 0.8;
+}
+ 
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+ 
 img {
-    float: right;
+    width: 50%;
+    height: 50%;
+    border-radius: 25px;
 }
-section {
-    float: center;
+ 
+div.gallery {
+    margin: 5px;
+    border: 1px solid;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
-
+ 
 </style>
-
-
-
 </head>
 <body>
-  <div class="container">
-    <!-- Introduction -->
-    <div class="intro">
-      <div>
-
-        <p><img src="true.jpg" alt="music deprived" style="width:100px;height:100px;" style="float:right"></p>
-        <h1 style="font-family: Arial, sans-serif; font-size: 30px; color: rgb(3, 3, 31);"><b>Hi, l'm Kyelle! <span>👋</span></b></span></h1>
-        <h2 style="font-family: Arial, sans-serif; font-size: 14px; color: rgb(3, 3, 31);"><strong>Welcome to My Space :></strong></h2>
-        <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: rgb(40, 68, 87);"><i>Just a MAWD student who enjoys watching films.
-         I like exploring new things, editing when bored, and listening to music when I need to escape.</i></p>
-
-         <br>
-
-            <h3 style="font-family: Arial, sans-serif; font-size: 14px; color: rgb(3, 3, 31);"><b>About</b></h3>
-           
-            <p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: rgb(40, 68, 87);"><i>This page is just a short introduction about me. 
-                I added my vlog and my favorite song (fave at the moment) so you can get a glimpse of what I enjoy. Nothing fancy—just me being me.</i></p>
-
-
-
-            </br>   
-
-            <br>
-    <section>
-<h2>🎬 My Vlog</h2>
+ 
+<div class="content">
+  <h2>Hi, I'm Kyelle, Welcome to my Website! =D </h2>
+ 
+    <br>
+    <h3>About</h3>
+    <p>Just a MAWD student who enjoys watching films. I like exploring new things, editing when bored, and listening to music when I need to escape.</p>
+    <p>This page is just a short introduction about me. I added my vlog and my favorite song (fave at the moment) so you can get a glimpse of what I enjoy. Nothing fancy—just me being me.</p>
+    <br>
+    <h3>My Vlog</h3>
     <p>This vlog is 4 minutes, and it shows a bit of my life as a MAWD student and the little things I do. It’s simple and personal — the kind of video I’d watch again when I want to remember small moments.</p>
     <p><a class="btn" href="https://youtu.be/IEr_TkmqyEk" target="_blank" rel="noopener noreferrer">Watch my vlog</a></p>
-    </section>
-</br>
-
-
-<section>
-    <h2>🎵 My Favorite Song (atm) — <span style="color:rgb(119, 18, 18);">Dirty Little Secret</span></h2>
+    <iframe height="400" width="500" src="https://www.youtube.com/embed/IEr_TkmqyEk" title="school vlog... kinda?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <h3>🎵 My Favorite Song (atm) — <span style="color:rgb(119, 18, 18);">Dirty Little Secret</span></h3>
     <p style="font-family: Arial, sans-serif; font-size: 15px; color: rgb(3, 3, 31);"><strong>I chose this song because it gives off that 2000s rebellious teenager vibe — loud, dramatic, and a little bit reckless. When I was younger,
          I always thought I’d grow up like those teens you see in movies, and honestly, I still like the idea. The beat is catchy, and no matter how many times I play it, it never gets old.</strong></p>
+    <br>
+    <img src="dls.jpg" width="500" height="400">
+    <audio controls style="display: block; margin: 0 auto;">
+    <source src="Dirty Little Secret - The All-American Rejects.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+<br>
+<div class="gallery">
+   
  
-         <div>
-            <p><img src="dls.jpg" alt="album cover" style="width:280px;height:280px;"></p>
-            </div>
-
-
-         <audio controls style="display: block; margin: 0 auto;">
-  <source src="Dirty Little Secret - The All-American Rejects.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-<p style="font-size:13px;color:#666;margin-top:8px;">
-      Tip: If the song doesn't play, upload the MP3 to the same folder as this HTML (e.g. `audio/Dirty Little Secret - The All-American Reje5cts.mp3`) or use a direct URL.
-    </p>
-</section>
-</br>   
-
 <footer>
-<p style="font-family: Arial, sans-serif; font-size: 15px; color: rgb(3, 3, 31); text-align:center"><i>© 2025 My Website — Thanks for visiting!</i></p>
+<p style="font-family: Arial, sans-serif; font-size: 15px; color: rgb(3, 3, 31); text-align:center"><i>© 2025 Kyelle's Website — Thanks for visiting!</i></p>
 </footer>
-
-
-      </div>
-    </div>
-    </div>
-
-
+ 
+ 
 </body>
 </html>
